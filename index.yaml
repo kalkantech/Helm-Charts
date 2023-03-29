@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-mini:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-29T19:47:04.678307617Z"
+    description: A Helm chart for Kubernetes
+    digest: 598db2aa4602d78b853bf5e2213b216af4807f6a9b2959fc68159c7b4e0ebda8
+    name: hello-mini
+    type: application
+    urls:
+    - https://github.com/kalkantech/Helm-Charts/releases/download/hello-mini-0.1.0/hello-mini-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-03-29T19:47:04.678317817Z"
