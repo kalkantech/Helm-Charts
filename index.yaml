@@ -14,6 +14,16 @@ entries:
   jenkins:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-03-31T18:16:34.741802977Z"
+    description: A Helm chart for Kubernetes
+    digest: 31d22572d7d0895f78176f6e0489ba095d5571cc0e3af2028f51c54567ba1454
+    name: jenkins
+    type: application
+    urls:
+    - https://github.com/kalkantech/Helm-Charts/releases/download/jenkins-0.1.1/jenkins-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-03-30T20:58:06.343433793Z"
     description: A Helm chart for Kubernetes
     digest: 6552fddd854a86c5348a30c89463e85ac791e77ebc36646e5fc91612f71dd914
@@ -22,4 +32,4 @@ entries:
     urls:
     - https://github.com/kalkantech/Helm-Charts/releases/download/jenkins-0.1.0/jenkins-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-30T20:58:06.343440493Z"
+generated: "2023-03-31T18:16:34.741811677Z"
