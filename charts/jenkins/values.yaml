@@ -10,6 +10,9 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "lts"
 
+deployment:
+  port: 8080
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: "jenkins"
@@ -51,7 +54,7 @@ securityContext: {}
 
 service:
   type: LoadBalancer
-  port: 8080
+  port: 8090
   jnlpPort: 50000
   annotations:
     prometheus.io/scrape: 'true'
